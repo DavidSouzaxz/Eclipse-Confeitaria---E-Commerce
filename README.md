@@ -149,7 +149,7 @@ Crie um arquivo `.env.local` na raiz do projeto:
 
 ```env
 # WhatsApp
-VITE_STORE_PHONE=5585999999999
+SUA_VARIAVEL=5585999999999
 ```
 
 > **Nota**: Atualize o número de telefone com o DDD e número real da loja.
@@ -484,7 +484,7 @@ className = "bg-gradient-to-t from-eclipse-bg via-eclipse-bg/95";
 
 ---
 
-##  Troubleshooting
+## Troubleshooting
 
 ### Problema: Porta 5173 já em uso
 
