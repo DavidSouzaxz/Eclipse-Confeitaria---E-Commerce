@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  /* Paleta completa extraída do Logo Eclipse Confeitaria */
+  --color-eclipse-bg: #faf8f4; /* Fundo principal - bege claro */
+  --color-eclipse-card: #fff9f6; /* Cards - rosa muito suave */
+
+  /* Textos */
+  --color-eclipse-text: #8f5d46; /* Bronze escuro - texto principal */
+  --color-eclipse-muted: #a87a5e; /* Bronze médio - texto secundário */
+
+  /* Acentos e destaques */
+  --color-eclipse-purple: #d4a574; /* Dourado quente - botões e destaques */
+  --color-eclipse-rosegold: #d4a574; /* Dourado quente - botões CTA */
+  --color-eclipse-bronze: #8f5d46; /* Bronze escuro - detalhes */
+  --color-eclipse-cream: #fce6e2; /* Rosa claro - badges suaves */
+  --color-eclipse-rose: #f5ede5; /* Creme - backgrounds alternados */
+  --color-eclipse-gold: #c9a57b; /* Ouro médio - preços e destaques */
+}
+/* Remove scrollbar do navegador */
+html,
+body {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slideUp 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
