@@ -16,7 +16,7 @@ export const PRODUCTS = [
       "Os bolos da Eclipse Confeitaria são preparados artesanalmente com massas macias, recheios cremosos e coberturas irresistíveis, disponíveis em diversos sabores para agradar todos os gostos. Perfeitos para comemorações, encontros especiais ou simplesmente para adoçar o dia, cada bolo combina beleza, sabor e qualidade em cada detalhe.",
     price: 59.99,
     category: "Bolos",
-    image: "/src/assets/Bolos Diversos Sabores.jpg",
+    image: "./Bolos Diversos Sabores.jpg",
     variants: [
       { id: "1-chocolate", name: "Chocolate Belga", priceModifier: 0 },
       { id: "1-morango", name: "Morango com Leite Ninho", priceModifier: 0 },
@@ -32,7 +32,7 @@ export const PRODUCTS = [
       "Os bolos da Eclipse Confeitaria são preparados artesanalmente com massas macias, recheios cremosos e coberturas irresistíveis, disponíveis em diversos sabores para agradar todos os gostos. Perfeitos para comemorações, encontros especiais ou simplesmente para adoçar o dia, cada bolo combina beleza, sabor e qualidade em cada detalhe.",
     price: 39.99,
     category: "Bolos",
-    image: "/src/assets/Bolos Diversos Sabores 2.jpg",
+    image: "./Bolos Diversos Sabores 2.jpg",
   },
   {
     id: "3",
@@ -41,7 +41,7 @@ export const PRODUCTS = [
       "A Cheesecake de Frutas Vermelhas da Eclipse Confeitaria combina uma base crocante com um recheio super cremoso e suave, finalizado com uma deliciosa calda de frutas vermelhas frescas. Uma sobremesa elegante, refrescante e perfeita para quem ama sabores equilibrados e irresistíveis.",
     price: 17.99,
     category: "Bolos",
-    image: "/src/assets/Cheesecake de Frutas Vermelhas.jpg",
+    image: "./Cheesecake de Frutas Vermelhas.jpg",
   },
   {
     id: "4",
@@ -50,7 +50,7 @@ export const PRODUCTS = [
       "A Mini Cheesecake de Limão da Eclipse Confeitaria combina uma base crocante com um recheio extremamente cremoso e refrescante. Finalizada com chantilly e uma delicada rodela de limão, essa sobremesa traz o equilíbrio perfeito entre o doce e o cítrico, proporcionando uma experiência leve e irresistível.",
     price: 10.5,
     category: "Bolos",
-    image: "/src/assets/Mini Cheesecake de Limão.jpg",
+    image: "./Mini Cheesecake de Limão.jpg",
   },
   {
     id: "5",
@@ -59,7 +59,7 @@ export const PRODUCTS = [
       " Massa de cookie macia por dentro e levemente crocante por fora, recheada com uma generosa camada de Nutella cremosa, criando uma sobremesa irresistível a cada pedaço. 🍪🍫",
     price: 12.99,
     category: "Bolos",
-    image: "/src/assets/Torta cookie.jpg",
+    image: "./Torta cookie.jpg",
   },
   // Doces
   {
@@ -69,7 +69,7 @@ export const PRODUCTS = [
       "Os Brownies Gourmet da Eclipse Confeitaria são feitos com massa intensa e macia de chocolate, combinados com coberturas cremosas e irresistíveis. Disponíveis em diferentes sabores, como chocolate, leite ninho, caramelo e chocolates especiais, são perfeitos para quem ama sobremesas práticas, recheadas e cheias de sabor.",
     price: 9,
     category: "Doces",
-    image: "/src/assets/Brownie Gourmet no Pote.jpg",
+    image: "./Brownie Gourmet no Pote.jpg",
     variants: [
       { id: "6-chocolate", name: "Chocolate Amargo", priceModifier: 0 },
       { id: "6-ninho", name: "Leite Ninho", priceModifier: 0 },
@@ -84,7 +84,7 @@ export const PRODUCTS = [
       "A Caixa de Brigadeiros Gourmet da Eclipse Confeitaria reúne sabores especiais e irresistíveis em uma apresentação delicada e sofisticada. Feitos com ingredientes de qualidade e recheios cremosos, os brigadeiros combinam textura, sabor e beleza, tornando cada momento ainda mais doce e especial.",
     price: 10,
     category: "Doces",
-    image: "/src/assets/Caixa de Brigadeiros Gourmet.jpg",
+    image: "./Caixa de Brigadeiros Gourmet.jpg",
     variants: [
       {
         id: "7-tradicional",
@@ -102,7 +102,7 @@ export const PRODUCTS = [
       "O Cento de Doces Variados da Eclipse Confeitaria é preparado de acordo com a preferência do cliente, trazendo uma seleção especial de sabores e combinações irresistíveis. Com doces feitos artesanalmente, recheios cremosos e acabamentos delicados, cada encomenda é pensada para tornar festas e momentos especiais ainda mais inesquecíveis.",
     price: 59.99,
     category: "Doces",
-    image: "/src/assets/Cento de Doces Variados.jpg",
+    image: "./Cento de Doces Variados.jpg",
   },
   {
     id: "9",
@@ -111,7 +111,7 @@ export const PRODUCTS = [
       "Cookie macio e recheado com um delicioso creme inspirado no sabor Lotus, finalizado com pedaços crocantes do biscoito que deixam cada mordida ainda mais irresistível.",
     price: 10.0,
     category: "Doces",
-    image: "/src/assets/Cookie Lotus.jpg",
+    image: "./Cookie Lotus.jpg",
   },
   {
     id: "21",
@@ -120,7 +120,7 @@ export const PRODUCTS = [
       "Cookie super macio com cobertura cremosa e finalização de calda e pedaços de red velvet, trazendo o equilíbrio perfeito entre sabor, leveza e sofisticação.",
     price: 10.0,
     category: "Doces",
-    image: "/src/assets/Cookie Lotus.jpg",
+    image: "./Cookie Lotus.jpg",
   },
   {
     id: "10",
@@ -129,7 +129,7 @@ export const PRODUCTS = [
       "O Copo Explosão da Eclipse Confeitaria é uma sobremesa irresistível feita com camadas cremosas de chocolate e leite ninho, combinadas com frutas frescas como morango e uva. Finalizado com cobertura especial e pedaços de chocolate, é a mistura perfeita de sabor, cremosidade e frescor em cada colherada.",
     price: 13.99,
     category: "Doces",
-    image: "/src/assets/explosão de morango.jpg",
+    image: "./explosão de morango.jpg",
   },
   {
     id: "11",
@@ -138,7 +138,7 @@ export const PRODUCTS = [
       "A Fatia Supreme de Chocolate com Morango da Eclipse Confeitaria é feita com massa de chocolate super macia, recheio cremoso e morangos frescos inteiros. Finalizada com uma cobertura intensa de chocolate e granulado, essa sobremesa entrega uma combinação perfeita de sabor, cremosidade e indulgência em cada pedaço.",
     price: 14.99,
     category: "Doces",
-    image: "/src/assets/Fatia suprema de chocolate com morango.jpg",
+    image: "./Fatia suprema de chocolate com morango.jpg",
   },
   {
     id: "12",
@@ -147,7 +147,7 @@ export const PRODUCTS = [
       "A Fatia Supreme de Ninho com Morango da Eclipse Confeitaria combina uma massa super macia com um recheio cremoso de leite ninho e morangos frescos inteiros. Finalizada com uma cobertura irresistível e delicada, essa sobremesa oferece o equilíbrio perfeito entre suavidade, doçura e frescor em cada mordida.",
     price: 14.99,
     category: "Doces",
-    image: "/src/assets/Fatia Supreme de Ninho.jpg",
+    image: "./Fatia Supreme de Ninho.jpg",
   },
   {
     id: "13",
@@ -156,7 +156,7 @@ export const PRODUCTS = [
       "Bolinho de chocolate com casca delicada e interior cremoso, servido quentinho com uma irresistível explosão de chocolate a cada colherada.",
     price: 25.99,
     category: "Doces",
-    image: "/src/assets/petit-gateau.jpg",
+    image: "./petit-gateau.jpg",
   },
   // Encomendas
   {
@@ -166,7 +166,7 @@ export const PRODUCTS = [
       "Massa folhada dourada e amanteigada, recheada generosamente com creme derretendo e sabor marcante. Perfeito para transformar qualquer momento em uma experiência deliciosa!",
     price: 12,
     category: "Salgados",
-    image: "/src/assets/Croissant Gourmet Recheado.jpg",
+    image: "./Croissant Gourmet Recheado.jpg",
     variants: [
       { id: "14-nutella", name: "Nutella", priceModifier: 0 },
       { id: "14-chocolate", name: "Chocolate", priceModifier: 0 },
@@ -181,7 +181,7 @@ export const PRODUCTS = [
       "Massa folhada leve e amanteigada, assada até ficar dourada e crocante, recheada com o irresistível creme de avelã Nutella para uma experiência doce e sofisticada. 🥐🍫",
     price: 19.99,
     category: "Encomendas",
-    image: "/src/assets/Croissant recheado de Nutella.jpg",
+    image: "./Croissant recheado de Nutella.jpg",
   },
   {
     id: "16",
@@ -190,7 +190,7 @@ export const PRODUCTS = [
       "Massa leve, douradinha e amanteigada, com acabamento trançado especial e recheio super cremoso. Feita artesanalmente para deixar cada mordida irresistível! ✨",
     price: 6.5,
     category: "Salgados",
-    image: "/src/assets/Empada de frango.jpg",
+    image: "./Empada de frango.jpg",
   },
   {
     id: "17",
@@ -199,7 +199,7 @@ export const PRODUCTS = [
       "Massa artesanal leve e amanteigada, dourada no ponto perfeito, recheada com um cremoso e saboroso camarão temperado.",
     price: 11,
     category: "Salgados",
-    image: "/src/assets/Empadão de camarão.jpg",
+    image: "./Empadão de camarão.jpg",
   },
   {
     id: "18",
@@ -208,7 +208,7 @@ export const PRODUCTS = [
       "Crocante por fora, macio por dentro e finalizado com coberturas incríveis que deixam tudo ainda mais saboroso.",
     price: 29.99,
     category: "Encomendas",
-    image: "/src/assets/Hot Dog Especial.jpg",
+    image: "./Hot Dog Especial.jpg",
   },
   {
     id: "19",
@@ -217,7 +217,7 @@ export const PRODUCTS = [
       "Tradicional pão de queijo artesanal, douradinho e cheio de sabor, perfeito para acompanhar um café fresquinho a qualquer hora do dia!",
     price: 13,
     category: "Salgados",
-    image: "/src/assets/Pão de Queijo.jpg",
+    image: "./Pão de Queijo.jpg",
   },
   {
     id: "20",
@@ -226,7 +226,7 @@ export const PRODUCTS = [
       "Uma seleção irresistível de salgados artesanais, preparados com massa leve, recheios saborosos e muito carinho. Perfeitos para festas, reuniões ou aquele lanche especial! ✨",
     price: 50,
     category: "Encomendas",
-    image: "/src/assets/Salgados Variados.jpg",
+    image: "./Salgados Variados.jpg",
   },
   {
     id: "26",
@@ -234,7 +234,7 @@ export const PRODUCTS = [
     description: "Um sabor único com chantili e bem espumado.",
     price: 6.5,
     category: "Bebidas",
-    image: "/src/assets/Cappuccino.jpg",
+    image: "./Cappuccino.jpg",
   },
   {
     id: "27",
@@ -242,7 +242,7 @@ export const PRODUCTS = [
     description: "Um sabor único de chocolate com chantili e bem cremoso.",
     price: 6.5,
     category: "Bebidas",
-    image: "/src/assets/Chocolate quente.jpg",
+    image: "./Chocolate quente.jpg",
   },
   {
     id: "22",
@@ -250,7 +250,7 @@ export const PRODUCTS = [
     description: "Coca Cola lata normal",
     price: 5.99,
     category: "Bebidas",
-    image: "/src/assets/Coca cola.jpg",
+    image: "./Coca cola.jpg",
   },
   {
     id: "23",
@@ -258,7 +258,7 @@ export const PRODUCTS = [
     description: "Fanta laranja lata",
     price: 5.99,
     category: "Bebidas",
-    image: "/src/assets/fanta-laranja.jpg",
+    image: "./fanta-laranja.jpg",
   },
   {
     id: "24",
@@ -266,7 +266,7 @@ export const PRODUCTS = [
     description: "Fanta uva lata",
     price: 5.99,
     category: "Bebidas",
-    image: "/src/assets/fanta-uva.jpg",
+    image: "./fanta-uva.jpg",
   },
   {
     id: "25",
@@ -274,6 +274,6 @@ export const PRODUCTS = [
     description: "Água Mineral 500ml",
     price: 5.99,
     category: "Bebidas",
-    image: "/src/assets/agua-mineral.jpg",
+    image: "./agua-mineral.jpg",
   },
 ];
