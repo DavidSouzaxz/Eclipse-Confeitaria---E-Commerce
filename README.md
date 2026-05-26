@@ -143,17 +143,6 @@ cd eclipse-commerce
 npm install
 ```
 
-### 3. Configurar variáveis de ambiente
-
-Crie um arquivo `.env.local` na raiz do projeto:
-
-```env
-# WhatsApp
-SUA_VARIAVEL=5585999999999
-```
-
-> **Nota**: Atualize o número de telefone com o DDD e número real da loja.
-
 ### 4. Iniciar servidor de desenvolvimento
 
 ```bash
